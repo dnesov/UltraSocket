@@ -1,4 +1,4 @@
-EXAMPLESERVER v0.1.0 by dnesov
+ULTRASOCKET v0.1.0 by dnesov
 
 
 CUSTOM SCRIPTS INSTRUCTION:
@@ -10,6 +10,12 @@ To make your script work, you need to add this to begining of your script:
 var PluginName = 'TestPlugin'
 var PluginVersion = '1.0'
 var PluginAuthor = 'yourname'
+exports.data = {
+    PluginName: PluginName,
+    PluginVersion: PluginVersion,
+    PluginAuthor: PluginAuthor,
+    PluginDescription : PluginDescription
+}
 
 All scripts are written in JavaScript. Multiple script support will be soon.
 
