@@ -12,3 +12,9 @@ var PluginVersion = '1.0'
 var PluginAuthor = 'yourname'
 
 All scripts are written in JavaScript. Multiple script support will be soon.
+
+Some other tips:
+You can make your console logs colorfull. Dont forget to imprt COLOR library:
+var colors = require('colors');
+Example:
+console.log('Magenta underline').magenta.underline
